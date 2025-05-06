@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Header */
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav-bar {
+   display: flex;
+   flex-direction: column;
+    background-color: #1f2937;
+    padding-bottom: 100px;
+    padding: 0 300px;
+    padding-bottom: 100px;
+    justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+ul, li, a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+/* Content  */
+
+.content-container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    width: 350px;
+}
+
+.content-text {
+    color: #e5e7eb;
+}
+.img-placeholder {
+    display: flex;
+    background-color: #505050;
+    padding: 100px 150px;
+    margin-left: 20px;
+}
+
+.sign-in {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 8px;
+    padding: 7px 20px;
+}
