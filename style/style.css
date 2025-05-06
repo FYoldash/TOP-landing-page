@@ -102,19 +102,44 @@ button {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    width: 150px
+    width: 220px
 }
 
 .imgs img {
     border-radius: 10px;
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
 }
 .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 
+/* Quote */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote {
+    width: 1000px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.quote-info {
+    width: 1000px;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: right;
+}
