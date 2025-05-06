@@ -80,3 +80,41 @@ h2 {
     border-radius: 8px;
     padding: 7px 20px;
 }
+
+/* Random Infromation section */
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+button {
+    padding: 50px;
+    background-color: transparent;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 150px
+}
+
+.imgs img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
